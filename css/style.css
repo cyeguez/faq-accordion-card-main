@@ -158,20 +158,55 @@ opacity: .2;
   }
 
   .card__s1{
-    border: 1px solid red;
+   
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-left: -90px;
+    margin-left: -150px;
+    margin-bottom: -90px;
+   
+   
+    background-image: url('../images/bg-pattern-desktop.svg');
+    background-position-x: -151px;
+    background-position-y: -35px;
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+
   
   }
+  
 
   .card__s1__image{
-    width: 400px;
-    height: 400px;
+    width: 474px; 
+    height: 474px;
+   
     
 
   }
+
+
+
+  .card__s2__title {
+    padding-top: 72px;
+    text-align: left;
+    
+    
+    
+  }
+
+
+  .card__s2 {
+    padding-inline: 6rem;
+    color: var(--Dark-grayish-blue);
+    font-weight: 400;
+    padding-bottom:3rem ;
+    
+  
+  }
+  
+
+  
 }
 
 
